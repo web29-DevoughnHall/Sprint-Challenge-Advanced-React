@@ -23,10 +23,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
-- [ ] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
 
+If you need lifecycle methods.
+
+- [ ] Name three lifecycle methods and their purposes.
+
+1.the render method which returns jsx and displays it in the UI.
+
+2.componentDidMount which is called when component is mounted.
+
+3. componentDidUpdate which is called when updating is happening
+
+- [ ] What is the purpose of a custom hook?
+It alows you to reuse logic in components by making it a fuction allowing you to call it wherever needed.
+
+- [ ] Why is it important to test our apps?
+So you can test your app on both the user and deloper side to make sure things are running as intended.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
