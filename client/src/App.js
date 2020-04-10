@@ -16,8 +16,6 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    console.log("Component did mount!");
-
     axios.get("http://localhost:5000/api/players")
       .then(res => {
         console.log(res.data);
@@ -25,7 +23,7 @@ class App extends React.Component {
           data: res.data,
         });
       })
-      .catch(error => console.log("No soccer players for you", error));
+      .catch(error => console.log("!!!!!!!", error));
   }
   render() {
     return (
